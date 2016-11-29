@@ -1,6 +1,6 @@
 # aws-cross-account-manager
 
-Source code for the AWS solution [Cross Account Manager](https://aws.amazon.com/answers/account-management/cross-account-management).
+Source code for the AWS solution [Cross Account Manager](https://aws.amazon.com/answers/account-management/aws-multi-account-security-strategy/).
 
 ## CloudFormation templates
 
