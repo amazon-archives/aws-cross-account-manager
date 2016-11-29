@@ -1,0 +1,11 @@
+accounts:
+  -
+    # AWS Account ID
+    999999999999 :
+       # Email associated with the account
+       email: you@example.com
+       # Optional to group the accounts
+       accountgroup : production
+    888888888888 :
+        email: me@example.com
+        accountgroup : development

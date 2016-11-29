@@ -1,0 +1,35 @@
+{
+  "name": "cross-account-manager",
+  "version": "1.0.0",
+  "description": "Cross Account Manager is an automated reference implementation that assists with setting up corss account roles for easy federation of users from one master AWS account to multiple AWS sub-accounts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit ./tst"
+  },
+  "dependencies": {
+    "promise": "7.x",
+    "js-yaml": "3.6"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9"
+  },
+  "engines": {
+    "node": ">=4.3"
+  },
+  "homepage": "https://github.com/awslabs/aws-cross-account-manager",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/awslabs/aws-cross-account-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awslabs/aws-cross-account-manager"
+  },
+  "license": "SEE LICENSE IN http://aws.amazon.com/asl/",
+  "keywords": [
+    "aws",
+    "account",
+    "federation",
+    "node.js",
+    "vpc"
+  ]
+}

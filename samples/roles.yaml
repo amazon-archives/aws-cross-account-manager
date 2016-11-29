@@ -1,0 +1,17 @@
+roles:
+  -
+     #Role name
+    Prod-Administrator :
+       #Action add or remove
+       action : add
+       #Reference to JSON policy file in custom_policy folder
+       policy : Administrator.json
+       #Optional: apply this role to only accounts in this group
+       accountgroup : production
+    Dev-Administrator :
+       action : add
+       policy : Administrator.json
+       accountgroup : development
+    Read-Only :
+       action : add
+       policy : Read-Only.json
