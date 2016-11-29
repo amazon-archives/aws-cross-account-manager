@@ -919,6 +919,7 @@
     },
     "InitMasterAccountCustomResource" : {
       "Type" : "Custom::InitMasterAccountCustomResource",
+      "DependsOn" : [ "CloudwatchLogsCloudformationPolicy" ],
       "Properties" : {
         "ServiceToken" : {
           "Fn::GetAtt" : [ "InitMasterAccount", "Arn" ]
