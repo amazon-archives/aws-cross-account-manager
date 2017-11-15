@@ -173,6 +173,7 @@ exports.handleAccountEvent = function(event, context, callback) {
 
 									console.log("Adding resource: " + new_resource  + " for Role: " + role);
 									policy.Statement[0].Resource = resources;
+									Iam_Helper.updateRolePolicy(role, JSON.stringify(policy));
 								} else if (action == "REMOVE"){
 									var index = resources.indexOf(new_resource);
 									console.log("Removing resource: " + new_resource  + " for Role: " + role);
